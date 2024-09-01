@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+    background-color: honeydew;
+    border: 2em dotted;
+    border-right-color: red;
+    border-bottom-color: yellow;
+    border-left-color: blue;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.title {
+    height: 2em;
+    width: 30em;
+    border: 0.25em double sandybrown;
+    background-color: rgba(151, 232, 235, 0.5);
+}
+
+h1 {
+    height: 2em;
+    width: 25em;
+    border: 0.1em solid blanchedalmond;
+    background-color: rgba(203, 235, 151, 0.5);
+}
+
+body > ul > li {
+    height: 10em;
+    width: 40em;
+    border: 0.1em solid lightseagreen;
+    margin-bottom: -8.5em;
+    margin-top: 1em;
+    overflow: hidden;
+} 
+
+body > ul {
+    margin-bottom: 7em;
+}
+
+ul li {
+    height: auto;
+    padding-left: 1em;
+    border: 0.1em solid lightseagreen;
+    background-color: rgba(203, 235, 151, 0.5);
+    overflow: hidden;
+}
+
+ul ul{ 
+    width: 40em;
+    overflow: hidden;
+}
+
+ol {
+    height: auto;
+    width: 40em;
+    border: 0.1em solid lightseagreen;
+    background-color: rgba(234, 235, 151, 0.5);
+    overflow: hidden;
+}
+
+
+
