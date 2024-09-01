@@ -61,5 +61,12 @@ ol {
     overflow: hidden;
 }
 
+/*Fix for IE - tessted in IE9 and IE11*/
+img {
+    width: 100%;
+}
 
-
+.svg-size {
+    height: 60em;
+    width: 60em;
+}
